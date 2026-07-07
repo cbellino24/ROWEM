@@ -1,0 +1,167 @@
+/* Broadcast-style scroll animations */
+
+[data-aos="hero"] {
+  opacity: 0;
+  transform: translate3d(0, 28px, 0);
+  transition-property: opacity, transform;
+  transition-duration: 0.9s;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+[data-aos="hero"].aos-animate {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+[data-aos="fade"].aos-animate,
+[data-aos="fade-up"].aos-animate {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+[data-aos="fade"] {
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+[data-aos="fade-up"] {
+  opacity: 0;
+  transform: translate3d(0, 24px, 0);
+  transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+[data-aos="img-in"] {
+  opacity: 0;
+  transform: scale(1.08);
+  transition-property: opacity, transform;
+  transition-duration: 0.8s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+[data-aos="img-in"].aos-animate {
+  opacity: 1;
+  transform: scale(1);
+}
+
+[data-header] {
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+[data-header].is-visible {
+  opacity: 1;
+}
+
+/* Drawer item stagger */
+[data-drawer-item] {
+  opacity: 0;
+  transform: translateX(-12px);
+}
+
+[data-drawer-item].is-animated {
+  animation: drawer-fade 0.5s ease forwards;
+}
+
+@keyframes drawer-fade {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Marquee */
+@keyframes ticker-rtl {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.ticker--unloaded [data-ticker-text] {
+  opacity: 0;
+}
+
+.announcement__scale:not(.ticker--unloaded) [data-ticker-text] {
+  display: flex;
+  width: max-content;
+  max-width: none;
+  animation: ticker-rtl 28s linear infinite;
+  will-change: transform;
+}
+
+.announcement__scale:hover [data-ticker-text] {
+  animation-play-state: paused;
+}
+
+@media (max-width: 749px) {
+  .announcement__scale:not(.ticker--unloaded) [data-ticker-text] {
+    gap: 1.75rem;
+    animation-duration: 24s;
+  }
+}
+
+/* Quick add slide up */
+.product-item__image .quick-add__holder {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.product-item:hover .quick-add__holder {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hover second image */
+.product-item__bg__under {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.product-item:hover .product-item__bg__under {
+  opacity: 1;
+}
+
+.product-item:hover .product-item__bg--default:has(+ .product-item__bg__under) img {
+  opacity: 0;
+}
+
+.product-item__bg--default img {
+  transition: opacity 0.4s ease, transform 0.5s ease;
+}
+
+.product-item:hover .product-item__bg--default img {
+  transform: scale(1.03);
+}
+
+/* Filter pill hover — legacy tiles only; collection-intro pills styled in main.css */
+
+/* Testimonial slideshow */
+.testimonial-slide.is-active .testimonial-slide__quote,
+.testimonial-slide.is-active .testimonial-slide__glyph {
+  animation: testimonial-in 0.75s ease 0.35s both;
+}
+.testimonial-slide.is-active .testimonial-slide__glyph { animation-delay: 0.45s; }
+
+@keyframes testimonial-in {
+  from { opacity: 0; transform: translate3d(1.25rem, 0, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-aos="hero"],
+  [data-aos="fade"],
+  [data-aos="fade-up"],
+  [data-aos="img-in"],
+  .announcement__scale [data-ticker-text],
+  .testimonial-slide.is-active .testimonial-slide__quote,
+  .testimonial-slide.is-active .testimonial-slide__glyph,
+  .product-item__image .quick-add__holder,
+  .product-item__bg__under,
+  [data-parallax-img] {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}
