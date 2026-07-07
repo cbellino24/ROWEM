@@ -71,8 +71,8 @@
 
 /* Marquee */
 @keyframes ticker-rtl {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(calc(var(--ticker-distance, 50%) * -1), 0, 0); }
 }
 
 .ticker--unloaded [data-ticker-text] {
@@ -81,10 +81,13 @@
 
 .announcement__scale:not(.ticker--unloaded) [data-ticker-text] {
   display: flex;
+  align-items: center;
   width: max-content;
   max-width: none;
-  animation: ticker-rtl 28s linear infinite;
+  gap: 3rem;
+  animation: ticker-rtl var(--ticker-duration, 28s) linear infinite;
   will-change: transform;
+  backface-visibility: hidden;
 }
 
 .announcement__scale:hover [data-ticker-text] {
@@ -94,7 +97,6 @@
 @media (max-width: 749px) {
   .announcement__scale:not(.ticker--unloaded) [data-ticker-text] {
     gap: 1.75rem;
-    animation-duration: 24s;
   }
 }
 

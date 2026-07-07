@@ -215,6 +215,9 @@
       ctaEl.textContent = 'Pre-order';
       formEl.addEventListener('submit', function (e) {
         e.preventDefault();
+        if (window.ROWEM_CART && typeof product.price === 'number') {
+          window.ROWEM_CART.addFromProduct(product, { quantity: 1 });
+        }
         var original = ctaEl.textContent;
         ctaEl.textContent = 'Added to pre-order';
         setTimeout(function () { ctaEl.textContent = original; }, 1400);
@@ -238,6 +241,14 @@
       if (sizeSelect && !sizeSelect.value) {
         sizeSelect.focus();
         return;
+      }
+      var qtyInput = document.querySelector('[data-qty-input]');
+      var quantity = qtyInput ? parseInt(qtyInput.value, 10) || 1 : 1;
+      if (window.ROWEM_CART && typeof product.price === 'number') {
+        window.ROWEM_CART.addFromProduct(product, {
+          size: sizeSelect ? sizeSelect.value : '',
+          quantity: quantity
+        });
       }
       var original = ctaEl.textContent;
       ctaEl.textContent = 'Added';

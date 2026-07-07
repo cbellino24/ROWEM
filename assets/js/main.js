@@ -278,17 +278,7 @@
     if (next) next.addEventListener('click', function () { scrollByDir(1); });
   });
 
-  /* Quick add feedback */
-  document.querySelectorAll('.quick-add__button').forEach(function (btn) {
-    btn.addEventListener('click', function (e) {
-      e.preventDefault();
-      e.stopPropagation();
-      var label = btn.querySelector('span') || btn;
-      var original = label.textContent;
-      label.textContent = 'Added';
-      setTimeout(function () { label.textContent = original; }, 1400);
-    });
-  });
+  /* Quick add handled in quick-add.js for collection grids */
 
   /* Testimonials slideshow */
   var testimonialSlider = document.querySelector('[data-testimonial-slider]');
@@ -353,10 +343,66 @@
     });
   }
 
-  /* Duplicate marquee content for seamless loop */
+  /* Seamless announcement marquee */
   document.querySelectorAll('[data-ticker-text]').forEach(function (ticker) {
-    ticker.innerHTML = ticker.innerHTML + ticker.innerHTML;
-    ticker.parentElement.classList.remove('ticker--unloaded');
+    if (ticker.dataset.tickerInit) return;
+    ticker.dataset.tickerInit = 'true';
+
+    var scale = ticker.parentElement;
+    if (!scale) return;
+
+    var templateSlides = Array.from(ticker.children).map(function (slide) {
+      return slide.cloneNode(true);
+    });
+    if (!templateSlides.length) return;
+
+    var rebuildTimer;
+    var MARQUEE_SPEED = 55; /* px per second */
+
+    function rebuild() {
+      ticker.innerHTML = '';
+      templateSlides.forEach(function (slide) {
+        ticker.appendChild(slide.cloneNode(true));
+      });
+
+      var unitWidth = ticker.scrollWidth;
+      var viewport = scale.offsetWidth || window.innerWidth;
+
+      while (unitWidth < viewport) {
+        templateSlides.forEach(function (slide) {
+          ticker.appendChild(slide.cloneNode(true));
+        });
+        unitWidth = ticker.scrollWidth;
+      }
+
+      Array.from(ticker.children).forEach(function (slide) {
+        var clone = slide.cloneNode(true);
+        clone.setAttribute('aria-hidden', 'true');
+        ticker.appendChild(clone);
+      });
+
+      var distance = ticker.scrollWidth / 2;
+      ticker.style.setProperty('--ticker-distance', distance + 'px');
+      ticker.style.setProperty('--ticker-duration', (distance / MARQUEE_SPEED) + 's');
+      scale.classList.remove('ticker--unloaded');
+    }
+
+    function scheduleRebuild() {
+      clearTimeout(rebuildTimer);
+      rebuildTimer = setTimeout(rebuild, 100);
+    }
+
+    rebuild();
+
+    if (typeof ResizeObserver !== 'undefined') {
+      new ResizeObserver(scheduleRebuild).observe(scale);
+    } else {
+      window.addEventListener('resize', scheduleRebuild);
+    }
+
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(scheduleRebuild);
+    }
   });
 
   /* Images with text scroll — Our Mission */
