@@ -867,7 +867,8 @@ window.ROWEM_PRODUCTS = {
     collectionLabel: 'Gear & Play',
     collectionUrl: 'gear-and-play.html',
     images: [
-      { src: 'assets/images/products/custom-logo-burr-paw.png', alt: 'Burr Paw — Custom Logo' }
+      { src: 'assets/images/products/custom-logo-burr-paw.png', alt: 'Burr Paw — Custom Logo' },
+      { src: 'assets/images/products/burr-paw-custom.jpg', alt: 'Burr Paw — Custom Logo in use' }
     ],
     imageContain: true,
     quote: 'Your logo, our gear.',
@@ -956,7 +957,8 @@ window.ROWEM_PRODUCTS = {
     collectionUrl: 'gear-and-play.html',
     images: [
       { src: 'assets/images/products/gray-and-black-trap.jpg', alt: 'Kids Trap Toy — Gray & Black' },
-      { src: 'assets/images/products/gray-and-black-trap-2.jpg', alt: 'Kids Trap Toy — Gray & Black, alternate view' }
+      { src: 'assets/images/products/gray-and-black-trap-2.jpg', alt: 'Kids Trap Toy — Gray & Black, alternate view' },
+      { src: 'assets/images/products/gray-black-trap-2.jpg', alt: 'Kids Trap Toy — Gray & Black, in use' }
     ],
     imageContain: true,
     quote: 'Imaginative play for make-believe adventures.',
