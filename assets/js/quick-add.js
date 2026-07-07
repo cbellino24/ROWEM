@@ -11,11 +11,11 @@
   var modalConfirm;
 
   function canQuickAdd(product) {
-    return product && (product.cta === 'add' || product.cta === 'preorder') && typeof product.price === 'number';
+    return product && product.cta === 'add' && typeof product.price === 'number';
   }
 
-  function buttonLabel(product) {
-    return product.cta === 'preorder' ? 'Pre-order' : 'Quick add';
+  function buttonLabel() {
+    return 'Quick add';
   }
 
   function showAddedFeedback(card) {
@@ -118,8 +118,8 @@
 
     card.querySelectorAll('.quick-add__button span').forEach(function (span) {
       if (!span.getAttribute('data-quick-add-label')) {
-        span.setAttribute('data-quick-add-label', buttonLabel(product));
-        span.textContent = buttonLabel(product);
+        span.setAttribute('data-quick-add-label', 'Quick add');
+        span.textContent = 'Quick add';
       }
     });
   }
