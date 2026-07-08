@@ -2957,6 +2957,27 @@ a.navlink { text-decoration: none; }
 .footer-col h3 { font-size: 0.6875rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-sand); margin-bottom: 0.75rem; }
 .footer-col a, .footer-col p { display: block; font-size: 0.875rem; opacity: 0.8; padding: 0.2rem 0; }
 .footer-col a:hover { opacity: 1; }
+.footer-payment-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+.footer-payment-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
+.footer-payment-list__item img {
+  display: block;
+  width: auto;
+  height: 2.75rem;
+}
 .footer-copy { text-align: center; font-size: 0.75rem; opacity: 0.45; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); }
 
 /* Policy & info pages */
