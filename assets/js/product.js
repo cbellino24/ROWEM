@@ -141,13 +141,26 @@
     }
   }
 
+  function renderProductTitle() {
+    if (!titleEl) return;
+    if (product.titleType && product.titlePattern) {
+      titleEl.innerHTML = '<span class="product-title__type">' + product.titleType + '</span><span class="product-title__pattern">' + product.titlePattern + '</span>';
+    } else {
+      titleEl.textContent = product.title;
+    }
+  }
+
   function renderDetails() {
     if (categoryEl) categoryEl.textContent = product.categoryLabel;
-    if (titleEl) titleEl.textContent = product.title;
+    renderProductTitle();
 
     if (priceEl) {
       if (typeof product.price === 'number') {
-        priceEl.textContent = formatPrice(product.price);
+        if (product.compareAtPrice && product.compareAtPrice > product.price) {
+          priceEl.innerHTML = '<span class="product-details__price-compare">' + formatPrice(product.compareAtPrice) + '</span> ' + formatPrice(product.price);
+        } else {
+          priceEl.textContent = formatPrice(product.price);
+        }
         priceEl.classList.remove('product-details__price--label');
       } else {
         priceEl.textContent = product.priceLabel || '';
@@ -172,6 +185,41 @@
         '<div class="product-taxonomy__row"><dt>Category</dt><dd>' + product.categoryLabel + ', ' + product.collectionLabel + '</dd></div>' +
         (tags ? '<div class="product-taxonomy__row"><dt>Tag</dt><dd>' + tags + '</dd></div>' : '') +
         '<div class="product-taxonomy__row"><dt>Brand</dt><dd>' + brandHtml + '</dd></div>';
+    }
+
+    if (product.preorderNote && actionsEl) {
+      var notice = document.createElement('p');
+      notice.className = 'product-preorder-note';
+      notice.textContent = product.preorderNote;
+      actionsEl.parentNode.insertBefore(notice, actionsEl);
+    }
+
+    if (product.collection === 'apparel' && excerptEl) {
+      var sizeLink = document.createElement('p');
+      sizeLink.className = 'product-size-link';
+      sizeLink.innerHTML = '<a href="size-guide.html">View size guide</a> — bamboo clothing should fit snug.';
+      excerptEl.insertAdjacentElement('afterend', sizeLink);
+    }
+
+    if (product.comboDeals && product.comboDeals.length && actionsEl) {
+      var comboWrap = document.createElement('div');
+      comboWrap.className = 'product-combo-deals';
+      comboWrap.innerHTML = '<p class="product-combo-deals__label caps">Combo deals</p>';
+      product.comboDeals.forEach(function (deal) {
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'btn btn--outline btn--small product-combo-deals__btn';
+        btn.innerHTML = '<span>' + deal.label + ' — $' + deal.price + '</span>';
+        btn.addEventListener('click', function () {
+          if (!window.ROWEM_CART || !deal.items) return;
+          deal.items.forEach(function (id) {
+            var p = window.ROWEM_PRODUCTS[id];
+            if (p) window.ROWEM_CART.addFromProduct(p, { quantity: 1 });
+          });
+        });
+        comboWrap.appendChild(btn);
+      });
+      actionsEl.insertAdjacentElement('afterend', comboWrap);
     }
   }
 
@@ -309,11 +357,22 @@
   }
 
   function getRelatedProducts() {
-    return Object.keys(window.ROWEM_PRODUCTS)
+    var related = Object.keys(window.ROWEM_PRODUCTS)
       .map(function (id) { return window.ROWEM_PRODUCTS[id]; })
       .filter(function (item) {
         return item.id !== product.id && item.collection === product.collection;
-      })
+      });
+
+    if (product.category === 'babies' && product.printKey) {
+      var matchingBow = related.find(function (item) {
+        return item.category === 'bows' && item.printKey === product.printKey;
+      });
+      if (matchingBow) {
+        related = [matchingBow].concat(related.filter(function (item) { return item.id !== matchingBow.id; }));
+      }
+    }
+
+    return related
       .sort(function (a, b) {
         if (a.category === product.category && b.category !== product.category) return -1;
         if (b.category === product.category && a.category !== product.category) return 1;

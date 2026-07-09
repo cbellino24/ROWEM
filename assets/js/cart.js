@@ -5,7 +5,8 @@
   'use strict';
 
   var STORAGE_KEY = 'rowem-cart';
-  var FREE_SHIPPING_THRESHOLD = 95;
+  var FREE_SHIPPING_THRESHOLD = 75;
+  var FLAT_RATE_SHIPPING = 7.99;
 
   function getItems() {
     try {
@@ -40,6 +41,11 @@
     return getItems().reduce(function (sum, item) {
       return sum + item.price * item.quantity;
     }, 0);
+  }
+
+  function getShipping(subtotal) {
+    subtotal = typeof subtotal === 'number' ? subtotal : getSubtotal();
+    return subtotal >= FREE_SHIPPING_THRESHOLD ? 0 : FLAT_RATE_SHIPPING;
   }
 
   function updateHeaderBadge() {
@@ -106,7 +112,11 @@
       var sizePart = item.size ? ' (' + item.size + ')' : '';
       return item.quantity + 'x ' + item.title + sizePart + ' — ' + formatPrice(item.price * item.quantity);
     });
-    lines.push('', 'Subtotal: ' + formatPrice(getSubtotal()));
+    var subtotal = getSubtotal();
+    var shipping = getShipping(subtotal);
+    lines.push('', 'Subtotal: ' + formatPrice(subtotal));
+    lines.push('Shipping: ' + (shipping ? formatPrice(shipping) : 'Free'));
+    lines.push('Total: ' + formatPrice(subtotal + shipping));
     return encodeURIComponent(lines.join('\n'));
   }
 
@@ -127,9 +137,11 @@
 
   window.ROWEM_CART = {
     FREE_SHIPPING_THRESHOLD: FREE_SHIPPING_THRESHOLD,
+    FLAT_RATE_SHIPPING: FLAT_RATE_SHIPPING,
     getItems: getItems,
     getCount: getCount,
     getSubtotal: getSubtotal,
+    getShipping: getShipping,
     addItem: addItem,
     addFromProduct: addFromProduct,
     updateQuantity: updateQuantity,

@@ -48,9 +48,10 @@
 
     var subtotal = window.ROWEM_CART.getSubtotal();
     var threshold = window.ROWEM_CART.FREE_SHIPPING_THRESHOLD;
+    var shipping = window.ROWEM_CART.getShipping(subtotal);
     var remaining = Math.max(0, threshold - subtotal);
     var shippingNote = remaining > 0
-      ? 'Add ' + window.ROWEM_CART.formatPrice(remaining) + ' more for free shipping.'
+      ? 'Add ' + window.ROWEM_CART.formatPrice(remaining) + ' more for free shipping, or pay ' + window.ROWEM_CART.formatPrice(window.ROWEM_CART.FLAT_RATE_SHIPPING) + ' flat-rate shipping.'
       : 'You qualify for free shipping.';
 
     summaryEl.innerHTML =
@@ -59,6 +60,14 @@
         '<div class="cart-summary__row">' +
           '<span>Subtotal</span>' +
           '<span data-cart-subtotal>' + window.ROWEM_CART.formatPrice(subtotal) + '</span>' +
+        '</div>' +
+        '<div class="cart-summary__row">' +
+          '<span>Shipping</span>' +
+          '<span>' + (shipping ? window.ROWEM_CART.formatPrice(shipping) : 'Free') + '</span>' +
+        '</div>' +
+        '<div class="cart-summary__row cart-summary__row--total">' +
+          '<span>Estimated total</span>' +
+          '<span>' + window.ROWEM_CART.formatPrice(subtotal + shipping) + '</span>' +
         '</div>' +
         '<p class="cart-summary__note">' + shippingNote + '</p>' +
         '<a href="mailto:sales@rowemproducts.com?subject=' + encodeURIComponent('ROWEM order request') + '&body=' + window.ROWEM_CART.buildOrderEmailBody() + '" class="btn btn--solid btn--primary btn--large cart-summary__checkout">Email Order</a>' +
