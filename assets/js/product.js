@@ -108,22 +108,35 @@
     galleryMainEl.classList.remove('is-zooming');
     var isMockup = img.mockup || img.src.indexOf('/mockups/') !== -1;
     galleryMainEl.classList.toggle('product-gallery__main--landscape', isMockup);
-    galleryMainEl.classList.toggle('product-gallery__main--contain', isMockup || !!product.imageContain);
+    galleryMainEl.classList.toggle('product-gallery__main--contain', isMockup || !!product.imageContain || product.category === 'bows');
+  }
+
+  function getGalleryImages() {
+    var images = (product.images || []).slice();
+
+    if (product.category === 'bows') {
+      return images.filter(function (img) {
+        return !img.mockup && img.src.indexOf('/mockups/') === -1;
+      });
+    }
+
+    return images;
   }
 
   function renderGallery() {
-    if (!mainImageEl || !product.images || !product.images.length) return;
+    var galleryImages = getGalleryImages();
+    if (!mainImageEl || !galleryImages.length) return;
 
-    var first = product.images[0];
+    var first = galleryImages[0];
     applyGalleryImage(first);
 
     if (product.imageLandscape && !first.mockup && first.src.indexOf('/mockups/') === -1) {
       galleryMainEl.classList.add('product-gallery__main--landscape');
     }
 
-    if (product.images.length > 1 && thumbsEl) {
+    if (galleryImages.length > 1 && thumbsEl) {
       thumbsEl.hidden = false;
-      thumbsEl.innerHTML = product.images.map(function (img, index) {
+      thumbsEl.innerHTML = galleryImages.map(function (img, index) {
         return '<button type="button" class="product-gallery__thumb' + (index === 0 ? ' is-active' : '') + '" data-gallery-index="' + index + '" aria-label="View image ' + (index + 1) + '">' +
           '<img src="' + img.src + '" alt="">' +
         '</button>';
@@ -132,7 +145,7 @@
       thumbsEl.querySelectorAll('[data-gallery-index]').forEach(function (btn) {
         btn.addEventListener('click', function () {
           var idx = parseInt(btn.getAttribute('data-gallery-index'), 10);
-          applyGalleryImage(product.images[idx]);
+          applyGalleryImage(galleryImages[idx]);
           thumbsEl.querySelectorAll('.product-gallery__thumb').forEach(function (thumb) {
             thumb.classList.toggle('is-active', thumb === btn);
           });
@@ -331,29 +344,12 @@
     });
   }
 
-  function getMatchingLifestyleImage(item) {
-    if (!item.printKey) return null;
-    var companions = Object.keys(window.ROWEM_PRODUCTS)
-      .map(function (id) { return window.ROWEM_PRODUCTS[id]; })
-      .filter(function (p) {
-        return p.printKey === item.printKey && (p.category === 'babies' || p.category === 'toddlers-kids');
-      })
-      .sort(function (a, b) {
-        if (a.category === 'babies' && b.category !== 'babies') return -1;
-        if (b.category === 'babies' && a.category !== 'babies') return 1;
-        return 0;
-      });
-    return companions.length && companions[0].images && companions[0].images[0]
-      ? companions[0].images[0]
-      : null;
-  }
-
-  function getBowMockupImage(item) {
+  function getBowProductImage(item) {
     if (!item.images || !item.images.length) return null;
-    for (var i = 0; i < item.images.length; i++) {
-      if (item.images[i].mockup) return item.images[i];
-    }
-    return item.images[0];
+    var bowImage = item.images.find(function (img) {
+      return !img.mockup && img.src.indexOf('/mockups/') === -1;
+    });
+    return bowImage || item.images[0];
   }
 
   function getRelatedProducts() {
@@ -363,22 +359,24 @@
         return item.id !== product.id && item.collection === product.collection;
       });
 
-    if (product.category === 'babies' && product.printKey) {
-      var matchingBow = related.find(function (item) {
+    var matchingBow = null;
+    if (product.printKey && product.category === 'babies') {
+      matchingBow = related.find(function (item) {
         return item.category === 'bows' && item.printKey === product.printKey;
       });
-      if (matchingBow) {
-        related = [matchingBow].concat(related.filter(function (item) { return item.id !== matchingBow.id; }));
-      }
     }
 
-    return related
-      .sort(function (a, b) {
-        if (a.category === product.category && b.category !== product.category) return -1;
-        if (b.category === product.category && a.category !== product.category) return 1;
-        return 0;
-      })
-      .slice(0, 4);
+    var others = related.filter(function (item) {
+      return !matchingBow || item.id !== matchingBow.id;
+    });
+
+    others.sort(function (a, b) {
+      if (a.category === product.category && b.category !== product.category) return -1;
+      if (b.category === product.category && a.category !== product.category) return 1;
+      return 0;
+    });
+
+    return (matchingBow ? [matchingBow].concat(others) : others).slice(0, 4);
   }
 
   function renderRelated() {
@@ -392,20 +390,20 @@
         : (item.priceLabel || '');
       var containClass = item.imageContain ? ' product-item__bg--contain' : '';
       var linkClass = item.imageLandscape ? ' product-link--landscape' : '';
-      var lifestyleImage = item.category === 'bows' ? getMatchingLifestyleImage(item) : null;
-      var mockupImage = item.category === 'bows' ? getBowMockupImage(item) : null;
-      var cardImage = item.images && item.images[0] ? item.images[0] : null;
+      var cardImage = item.category === 'bows'
+        ? getBowProductImage(item)
+        : (item.images && item.images[0] ? item.images[0] : null);
       var imageHtml = '';
 
-      if (item.category === 'bows' && lifestyleImage && mockupImage) {
+      if (item.category === 'bows' && cardImage) {
         imageHtml =
           '<div class="product-item__image double__image">' +
             '<a class="product-link" href="' + window.getProductUrl(item.id) + '">' +
               '<div class="product-item__bg product-item__bg--default">' +
-                '<img src="' + lifestyleImage.src + '" alt="' + lifestyleImage.alt + '" loading="lazy">' +
+                '<img src="' + cardImage.src + '" alt="' + cardImage.alt + '" loading="lazy">' +
               '</div>' +
-              '<div class="product-item__bg__under product-item__bg__under--mockup">' +
-                '<img src="' + mockupImage.src + '" alt="' + mockupImage.alt + '" loading="lazy">' +
+              '<div class="product-item__bg__under">' +
+                '<img src="' + cardImage.src + '" alt="" loading="lazy">' +
               '</div>' +
             '</a>' +
           '</div>';
@@ -422,7 +420,7 @@
         return '';
       }
 
-      return '<article class="product-item product-item--catalog' + (item.category === 'bows' ? ' product-item--related-bow' : '') + '">' +
+      return '<article class="product-item product-item--catalog"' + (item.category === 'bows' ? ' data-category="bows"' : '') + '">' +
         imageHtml +
         '<div class="product-item__info body-medium">' +
           '<p class="product-item__category caps">' + item.categoryLabel + '</p>' +

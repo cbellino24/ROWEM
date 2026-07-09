@@ -17,7 +17,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'purple-geo',
     images: [
       { src: 'assets/images/products/zippie-purple-geo.png', alt: 'Bamboo Zippy — Aztec' },
-      { src: 'assets/images/products/mockups/mockup-01.jpg', alt: 'Aztec collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-01 copy.jpg', alt: 'Aztec collection mockup', mockup: true }
     ],
     excerpt: 'Our Aztec print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.',
     description: '<p>Designed and sewn from our softest bamboo blend, this bamboo zippy features our custom Aztec print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don\'t stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night\'s sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom Aztec print</li><li>Newborn – 5/6</li></ul>',
@@ -44,7 +44,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'purple-geo',
     images: [
       { src: 'assets/images/products/set-purple-geo.png', alt: 'Two Piece Set — Aztec' },
-      { src: 'assets/images/products/mockups/mockup-01.jpg', alt: 'Aztec collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-01 copy.jpg', alt: 'Aztec collection mockup', mockup: true }
     ],
     excerpt: 'Aztec print top and bottom set in soft bamboo. Built for climbing, napping, and everyday wear.',
     description: '<p>Our two-piece Aztec set is made for toddlers and kids who never slow down. Soft bamboo, comfortable fit, and a matching print that ties the whole look together.</p><ul><li>Premium bamboo blend top and bottom</li><li>Comfortable elastic waistband</li><li>Custom Aztec print</li><li>2T – 5/6</li></ul>',
@@ -69,7 +69,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'purple-geo',
     images: [
       { src: 'assets/images/products/bows/bow-purple-geo.jpg', alt: 'Matching Bow — Aztec' },
-      { src: 'assets/images/products/mockups/mockup-01.jpg', alt: 'Aztec collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-01 copy.jpg', alt: 'Aztec collection mockup', mockup: true }
     ],
     excerpt: 'Soft bamboo bow headband in our Aztec print. Pairs with the matching bamboo zippy.',
     description: '<p>Complete the outfit with a matching bow in the same matching Aztec print. Soft bamboo blend, gentle on baby\'s head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom Aztec print</li><li>One size, newborn through 5/6</li></ul>',
@@ -95,7 +95,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'camo',
     images: [
       { src: 'assets/images/products/zippie-camo.png', alt: 'Bamboo Zippy — Old School Camo' },
-      { src: 'assets/images/products/mockups/mockup-02.jpg', alt: 'Old School Camo collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-02 copy.jpg', alt: 'Old School Camo collection mockup', mockup: true }
     ],
     excerpt: 'Our old school camo print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.',
     description: '<p>Designed and sewn from our softest bamboo blend, this bamboo zippy features our custom old school camo print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don\'t stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night\'s sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom old school camo print</li><li>Newborn – 5/6</li></ul>',
@@ -122,7 +122,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'camo',
     images: [
       { src: 'assets/images/products/set-camo.png', alt: 'Two Piece Set — Old School Camo' },
-      { src: 'assets/images/products/mockups/mockup-02.jpg', alt: 'Old School Camo collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-02 copy.jpg', alt: 'Old School Camo collection mockup', mockup: true }
     ],
     excerpt: 'Old school camo print top and bottom set in soft bamboo. Built for climbing, napping, and everyday wear.',
     description: '<p>Our two-piece old school camo set is made for toddlers and kids who never slow down. Soft bamboo, comfortable fit, and a matching print that ties the whole look together.</p><ul><li>Premium bamboo blend top and bottom</li><li>Comfortable elastic waistband</li><li>Custom old school camo print</li><li>2T – 5/6</li></ul>',
@@ -147,7 +147,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'camo',
     images: [
       { src: 'assets/images/products/bows/bow-camo.jpg', alt: 'Matching Bow — Old School Camo' },
-      { src: 'assets/images/products/mockups/mockup-02.jpg', alt: 'Old School Camo collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-02 copy.jpg', alt: 'Old School Camo collection mockup', mockup: true }
     ],
     excerpt: 'Soft bamboo bow headband in our old school camo print. Pairs with the matching bamboo zippy.',
     description: '<p>Complete the outfit with a matching bow in the same matching old school camo print. Soft bamboo blend, gentle on baby\'s head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom old school camo print</li><li>One size, newborn through 5/6</li></ul>',
@@ -173,7 +173,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'leopard',
     images: [
       { src: 'assets/images/products/zippie-leopard.png', alt: 'Bamboo Zippy — Colorful Cheetah' },
-      { src: 'assets/images/products/mockups/mockup-03.jpg', alt: 'Colorful Cheetah collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-03 copy.jpg', alt: 'Colorful Cheetah collection mockup', mockup: true }
     ],
     excerpt: 'Our colorful cheetah print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.',
     description: '<p>Designed and sewn from our softest bamboo blend, this bamboo zippy features our custom colorful cheetah print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don\'t stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night\'s sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom colorful cheetah print</li><li>Newborn – 5/6</li></ul>',
@@ -200,7 +200,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'leopard',
     images: [
       { src: 'assets/images/products/set-leopard.png', alt: 'Two Piece Set — Colorful Cheetah' },
-      { src: 'assets/images/products/mockups/mockup-03.jpg', alt: 'Colorful Cheetah collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-03 copy.jpg', alt: 'Colorful Cheetah collection mockup', mockup: true }
     ],
     excerpt: 'Colorful cheetah print top and bottom set in soft bamboo. Built for climbing, napping, and everyday wear.',
     description: '<p>Our two-piece colorful cheetah set is made for toddlers and kids who never slow down. Soft bamboo, comfortable fit, and a matching print that ties the whole look together.</p><ul><li>Premium bamboo blend top and bottom</li><li>Comfortable elastic waistband</li><li>Custom colorful cheetah print</li><li>2T – 5/6</li></ul>',
@@ -225,7 +225,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'leopard',
     images: [
       { src: 'assets/images/products/bows/bow-leopard.jpg', alt: 'Matching Bow — Colorful Cheetah' },
-      { src: 'assets/images/products/mockups/mockup-03.jpg', alt: 'Colorful Cheetah collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-03 copy.jpg', alt: 'Colorful Cheetah collection mockup', mockup: true }
     ],
     excerpt: 'Soft bamboo bow headband in our colorful cheetah print. Pairs with the matching bamboo zippy.',
     description: '<p>Complete the outfit with a matching bow in the same matching colorful cheetah print. Soft bamboo blend, gentle on baby\'s head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom colorful cheetah print</li><li>One size, newborn through 5/6</li></ul>',
@@ -251,7 +251,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'chicken',
     images: [
       { src: 'assets/images/products/zippie-chicken.png', alt: 'Bamboo Zippy — Colorful Chickens' },
-      { src: 'assets/images/products/mockups/mockup-04.jpg', alt: 'Colorful Chickens collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-04 copy.jpg', alt: 'Colorful Chickens collection mockup', mockup: true }
     ],
     excerpt: 'Our colorful chickens print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.',
     description: '<p>Designed and sewn from our softest bamboo blend, this bamboo zippy features our custom colorful chickens print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don\'t stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night\'s sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom colorful chickens print</li><li>Newborn – 5/6</li></ul>',
@@ -278,7 +278,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'chicken',
     images: [
       { src: 'assets/images/products/set-chicken.png', alt: 'Two Piece Set — Colorful Chickens' },
-      { src: 'assets/images/products/mockups/mockup-04.jpg', alt: 'Colorful Chickens collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-04 copy.jpg', alt: 'Colorful Chickens collection mockup', mockup: true }
     ],
     excerpt: 'Colorful chickens print top and bottom set in soft bamboo. Built for climbing, napping, and everyday wear.',
     description: '<p>Our two-piece colorful chickens set is made for toddlers and kids who never slow down. Soft bamboo, comfortable fit, and a matching print that ties the whole look together.</p><ul><li>Premium bamboo blend top and bottom</li><li>Comfortable elastic waistband</li><li>Custom colorful chickens print</li><li>2T – 5/6</li></ul>',
@@ -303,7 +303,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'chicken',
     images: [
       { src: 'assets/images/products/bows/bow-chicken.jpg', alt: 'Matching Bow — Colorful Chickens' },
-      { src: 'assets/images/products/mockups/mockup-04.jpg', alt: 'Colorful Chickens collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-04 copy.jpg', alt: 'Colorful Chickens collection mockup', mockup: true }
     ],
     excerpt: 'Soft bamboo bow headband in our colorful chickens print. Pairs with the matching bamboo zippy.',
     description: '<p>Complete the outfit with a matching bow in the same matching colorful chickens print. Soft bamboo blend, gentle on baby\'s head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom colorful chickens print</li><li>One size, newborn through 5/6</li></ul>',
@@ -329,7 +329,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'western',
     images: [
       { src: 'assets/images/products/zippie-western.png', alt: 'Bamboo Zippy — Western' },
-      { src: 'assets/images/products/mockups/mockup-05.jpg', alt: 'Western collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-05 copy.jpg', alt: 'Western collection mockup', mockup: true }
     ],
     excerpt: 'Our Western print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.',
     description: '<p>Designed and sewn from our softest bamboo blend, this bamboo zippy features our custom Western print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don\'t stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night\'s sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom Western print</li><li>Newborn – 5/6</li></ul>',
@@ -356,7 +356,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'western',
     images: [
       { src: 'assets/images/products/set-western.png', alt: 'Two Piece Set — Western' },
-      { src: 'assets/images/products/mockups/mockup-05.jpg', alt: 'Western collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-05 copy.jpg', alt: 'Western collection mockup', mockup: true }
     ],
     excerpt: 'Western print top and bottom set in soft bamboo. Built for climbing, napping, and everyday wear.',
     description: '<p>Our two-piece Western set is made for toddlers and kids who never slow down. Soft bamboo, comfortable fit, and a matching print that ties the whole look together.</p><ul><li>Premium bamboo blend top and bottom</li><li>Comfortable elastic waistband</li><li>Custom Western print</li><li>2T – 5/6</li></ul>',
@@ -381,7 +381,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'western',
     images: [
       { src: 'assets/images/products/bows/bow-western.jpg', alt: 'Matching Bow — Western' },
-      { src: 'assets/images/products/mockups/mockup-05.jpg', alt: 'Western collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-05 copy.jpg', alt: 'Western collection mockup', mockup: true }
     ],
     excerpt: 'Soft bamboo bow headband in our Western print. Pairs with the matching bamboo zippy.',
     description: '<p>Complete the outfit with a matching bow in the same matching Western print. Soft bamboo blend, gentle on baby\'s head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom Western print</li><li>One size, newborn through 5/6</li></ul>',
@@ -407,7 +407,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'pastel-camo',
     images: [
       { src: 'assets/images/products/zippie-pastel-camo.png', alt: 'Bamboo Zippy — Colorful Camo' },
-      { src: 'assets/images/products/mockups/mockup-06.jpg', alt: 'Colorful Camo collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-06 copy.jpg', alt: 'Colorful Camo collection mockup', mockup: true }
     ],
     excerpt: 'Our colorful camo print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.',
     description: '<p>Designed and sewn from our softest bamboo blend, this bamboo zippy features our custom colorful camo print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don\'t stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night\'s sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom colorful camo print</li><li>Newborn – 5/6</li></ul>',
@@ -434,7 +434,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'pastel-camo',
     images: [
       { src: 'assets/images/products/set-pastel-camo.png', alt: 'Two Piece Set — Colorful Camo' },
-      { src: 'assets/images/products/mockups/mockup-06.jpg', alt: 'Colorful Camo collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-06 copy.jpg', alt: 'Colorful Camo collection mockup', mockup: true }
     ],
     excerpt: 'Colorful camo print top and bottom set in soft bamboo. Built for climbing, napping, and everyday wear.',
     description: '<p>Our two-piece colorful camo set is made for toddlers and kids who never slow down. Soft bamboo, comfortable fit, and a matching print that ties the whole look together.</p><ul><li>Premium bamboo blend top and bottom</li><li>Comfortable elastic waistband</li><li>Custom colorful camo print</li><li>2T – 5/6</li></ul>',
@@ -459,7 +459,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'pastel-camo',
     images: [
       { src: 'assets/images/products/bows/bow-pastel-camo.jpg', alt: 'Matching Bow — Colorful Camo' },
-      { src: 'assets/images/products/mockups/mockup-06.jpg', alt: 'Colorful Camo collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-06 copy.jpg', alt: 'Colorful Camo collection mockup', mockup: true }
     ],
     excerpt: 'Soft bamboo bow headband in our colorful camo print. Pairs with the matching bamboo zippy.',
     description: '<p>Complete the outfit with a matching bow in the same matching colorful camo print. Soft bamboo blend, gentle on baby\'s head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom colorful camo print</li><li>One size, newborn through 5/6</li></ul>',
@@ -485,7 +485,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'farm',
     images: [
       { src: 'assets/images/products/zippie-farm.png', alt: 'Bamboo Zippy — Farm' },
-      { src: 'assets/images/products/mockups/mockup-07.jpg', alt: 'Farm collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-07 copy.jpg', alt: 'Farm collection mockup', mockup: true }
     ],
     excerpt: 'Our Farm print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.',
     description: '<p>Designed and sewn from our softest bamboo blend, this bamboo zippy features our custom Farm print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don\'t stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night\'s sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom Farm print</li><li>Newborn – 5/6</li></ul>',
@@ -512,7 +512,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'farm',
     images: [
       { src: 'assets/images/products/set-farm.png', alt: 'Two Piece Set — Farm' },
-      { src: 'assets/images/products/mockups/mockup-07.jpg', alt: 'Farm collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-07 copy.jpg', alt: 'Farm collection mockup', mockup: true }
     ],
     excerpt: 'Farm print top and bottom set in soft bamboo. Built for climbing, napping, and everyday wear.',
     description: '<p>Our two-piece Farm set is made for toddlers and kids who never slow down. Soft bamboo, comfortable fit, and a matching print that ties the whole look together.</p><ul><li>Premium bamboo blend top and bottom</li><li>Comfortable elastic waistband</li><li>Custom Farm print</li><li>2T – 5/6</li></ul>',
@@ -537,7 +537,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'farm',
     images: [
       { src: 'assets/images/products/bows/bow-farm.jpg', alt: 'Matching Bow — Farm' },
-      { src: 'assets/images/products/mockups/mockup-07.jpg', alt: 'Farm collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-07 copy.jpg', alt: 'Farm collection mockup', mockup: true }
     ],
     excerpt: 'Soft bamboo bow headband in our Farm print. Pairs with the matching bamboo zippy.',
     description: '<p>Complete the outfit with a matching bow in the same matching Farm print. Soft bamboo blend, gentle on baby\'s head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom Farm print</li><li>One size, newborn through 5/6</li></ul>',
@@ -563,7 +563,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'wildflowers',
     images: [
       { src: 'assets/images/products/zippie-wildflowers.png', alt: 'Bamboo Zippy — Floral' },
-      { src: 'assets/images/products/mockups/mockup-08.jpg', alt: 'Floral collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-08 copy.jpg', alt: 'Floral collection mockup', mockup: true }
     ],
     excerpt: 'Our floral print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.',
     description: '<p>Designed and sewn from our softest bamboo blend, this bamboo zippy features our custom floral print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don\'t stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night\'s sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom floral print</li><li>Newborn – 5/6</li></ul>',
@@ -590,7 +590,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'wildflowers',
     images: [
       { src: 'assets/images/products/set-wildflowers.png', alt: 'Two Piece Set — Floral' },
-      { src: 'assets/images/products/mockups/mockup-08.jpg', alt: 'Floral collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-08 copy.jpg', alt: 'Floral collection mockup', mockup: true }
     ],
     excerpt: 'Floral print top and bottom set in soft bamboo. Built for climbing, napping, and everyday wear.',
     description: '<p>Our two-piece floral set is made for toddlers and kids who never slow down. Soft bamboo, comfortable fit, and a matching print that ties the whole look together.</p><ul><li>Premium bamboo blend top and bottom</li><li>Comfortable elastic waistband</li><li>Custom floral print</li><li>2T – 5/6</li></ul>',
@@ -615,7 +615,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'wildflowers',
     images: [
       { src: 'assets/images/products/bows/bow-wildflowers.jpg', alt: 'Matching Bow — Floral' },
-      { src: 'assets/images/products/mockups/mockup-08.jpg', alt: 'Floral collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-08 copy.jpg', alt: 'Floral collection mockup', mockup: true }
     ],
     excerpt: 'Soft bamboo bow headband in our floral print. Pairs with the matching bamboo zippy.',
     description: '<p>Complete the outfit with a matching bow in the same matching floral print. Soft bamboo blend, gentle on baby\'s head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom floral print</li><li>One size, newborn through 5/6</li></ul>',
@@ -641,7 +641,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'pastel-mint',
     images: [
       { src: 'assets/images/products/zippie-pastel-mint.png', alt: 'Bamboo Zippy — Pastel Camo' },
-      { src: 'assets/images/products/mockups/mockup-09.jpg', alt: 'Pastel Camo collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-09 copy.jpg', alt: 'Pastel Camo collection mockup', mockup: true }
     ],
     excerpt: 'Our pastel camo print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.',
     description: '<p>Designed and sewn from our softest bamboo blend, this bamboo zippy features our custom pastel camo print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don\'t stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night\'s sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom pastel camo print</li><li>Newborn – 5/6</li></ul>',
@@ -668,7 +668,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'pastel-mint',
     images: [
       { src: 'assets/images/products/set-pastel-mint.png', alt: 'Two Piece Set — Pastel Camo' },
-      { src: 'assets/images/products/mockups/mockup-09.jpg', alt: 'Pastel Camo collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-09 copy.jpg', alt: 'Pastel Camo collection mockup', mockup: true }
     ],
     excerpt: 'Pastel camo print top and bottom set in soft bamboo. Built for climbing, napping, and everyday wear.',
     description: '<p>Our two-piece pastel camo set is made for toddlers and kids who never slow down. Soft bamboo, comfortable fit, and a matching print that ties the whole look together.</p><ul><li>Premium bamboo blend top and bottom</li><li>Comfortable elastic waistband</li><li>Custom pastel camo print</li><li>2T – 5/6</li></ul>',
@@ -693,7 +693,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'pastel-mint',
     images: [
       { src: 'assets/images/products/bows/bow-pastel-mint.jpg', alt: 'Matching Bow — Pastel Camo' },
-      { src: 'assets/images/products/mockups/mockup-09.jpg', alt: 'Pastel Camo collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-09 copy.jpg', alt: 'Pastel Camo collection mockup', mockup: true }
     ],
     excerpt: 'Soft bamboo bow headband in our pastel camo print. Pairs with the matching bamboo zippy.',
     description: '<p>Complete the outfit with a matching bow in the same matching pastel camo print. Soft bamboo blend, gentle on baby\'s head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom pastel camo print</li><li>One size, newborn through 5/6</li></ul>',
@@ -719,7 +719,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'wilderness',
     images: [
       { src: 'assets/images/products/zippie-wilderness.png', alt: 'Bamboo Zippy — Mountain Life' },
-      { src: 'assets/images/products/mockups/mockup-10.jpg', alt: 'Mountain Life collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-10 copy.jpg', alt: 'Mountain Life collection mockup', mockup: true }
     ],
     excerpt: 'Our Mountain Life print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.',
     description: '<p>Designed and sewn from our softest bamboo blend, this bamboo zippy features our custom Mountain Life print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don\'t stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night\'s sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom Mountain Life print</li><li>Newborn – 5/6</li></ul>',
@@ -746,7 +746,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'wilderness',
     images: [
       { src: 'assets/images/products/set-wilderness.png', alt: 'Two Piece Set — Mountain Life' },
-      { src: 'assets/images/products/mockups/mockup-10.jpg', alt: 'Mountain Life collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-10 copy.jpg', alt: 'Mountain Life collection mockup', mockup: true }
     ],
     excerpt: 'Mountain Life print top and bottom set in soft bamboo. Built for climbing, napping, and everyday wear.',
     description: '<p>Our two-piece Mountain Life set is made for toddlers and kids who never slow down. Soft bamboo, comfortable fit, and a matching print that ties the whole look together.</p><ul><li>Premium bamboo blend top and bottom</li><li>Comfortable elastic waistband</li><li>Custom Mountain Life print</li><li>2T – 5/6</li></ul>',
@@ -771,7 +771,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'wilderness',
     images: [
       { src: 'assets/images/products/bows/bow-wilderness.jpg', alt: 'Matching Bow — Mountain Life' },
-      { src: 'assets/images/products/mockups/mockup-10.jpg', alt: 'Mountain Life collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-10 copy.jpg', alt: 'Mountain Life collection mockup', mockup: true }
     ],
     excerpt: 'Soft bamboo bow headband in our Mountain Life print. Pairs with the matching bamboo zippy.',
     description: '<p>Complete the outfit with a matching bow in the same matching Mountain Life print. Soft bamboo blend, gentle on baby\'s head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom Mountain Life print</li><li>One size, newborn through 5/6</li></ul>',
@@ -797,7 +797,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'animal-tracks',
     images: [
       { src: 'assets/images/products/zippie-animal-tracks.png', alt: 'Bamboo Zippy — Tracks' },
-      { src: 'assets/images/products/mockups/mockup-11.jpg', alt: 'Tracks collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-11 copy.jpg', alt: 'Tracks collection mockup', mockup: true }
     ],
     excerpt: 'Our Tracks print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.',
     description: '<p>Designed and sewn from our softest bamboo blend, this bamboo zippy features our custom Tracks print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don\'t stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night\'s sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom Tracks print</li><li>Newborn – 5/6</li></ul>',
@@ -824,7 +824,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'animal-tracks',
     images: [
       { src: 'assets/images/products/set-animal-tracks.png', alt: 'Two Piece Set — Tracks' },
-      { src: 'assets/images/products/mockups/mockup-11.jpg', alt: 'Tracks collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-11 copy.jpg', alt: 'Tracks collection mockup', mockup: true }
     ],
     excerpt: 'Tracks print top and bottom set in soft bamboo. Built for climbing, napping, and everyday wear.',
     description: '<p>Our two-piece Tracks set is made for toddlers and kids who never slow down. Soft bamboo, comfortable fit, and a matching print that ties the whole look together.</p><ul><li>Premium bamboo blend top and bottom</li><li>Comfortable elastic waistband</li><li>Custom Tracks print</li><li>2T – 5/6</li></ul>',
@@ -849,7 +849,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'animal-tracks',
     images: [
       { src: 'assets/images/products/bows/bow-animal-tracks.jpg', alt: 'Matching Bow — Tracks' },
-      { src: 'assets/images/products/mockups/mockup-11.jpg', alt: 'Tracks collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-11 copy.jpg', alt: 'Tracks collection mockup', mockup: true }
     ],
     excerpt: 'Soft bamboo bow headband in our Tracks print. Pairs with the matching bamboo zippy.',
     description: '<p>Complete the outfit with a matching bow in the same matching Tracks print. Soft bamboo blend, gentle on baby\'s head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom Tracks print</li><li>One size, newborn through 5/6</li></ul>',
@@ -875,7 +875,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'chicken-brown',
     images: [
       { src: 'assets/images/products/zippie-chicken-brown.png', alt: 'Bamboo Zippy — Chickens & Flowers' },
-      { src: 'assets/images/products/mockups/mockup-12.jpg', alt: 'Chickens & Flowers collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-12 copy.jpg', alt: 'Chickens & Flowers collection mockup', mockup: true }
     ],
     excerpt: 'Our chickens & flowers print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.',
     description: '<p>Designed and sewn from our softest bamboo blend, this bamboo zippy features our custom chickens & flowers print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don\'t stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night\'s sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom chickens & flowers print</li><li>Newborn – 5/6</li></ul>',
@@ -902,7 +902,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'chicken-brown',
     images: [
       { src: 'assets/images/products/set-chicken-brown.png', alt: 'Two Piece Set — Chickens & Flowers' },
-      { src: 'assets/images/products/mockups/mockup-12.jpg', alt: 'Chickens & Flowers collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-12 copy.jpg', alt: 'Chickens & Flowers collection mockup', mockup: true }
     ],
     excerpt: 'Chickens & flowers print top and bottom set in soft bamboo. Built for climbing, napping, and everyday wear.',
     description: '<p>Our two-piece chickens & flowers set is made for toddlers and kids who never slow down. Soft bamboo, comfortable fit, and a matching print that ties the whole look together.</p><ul><li>Premium bamboo blend top and bottom</li><li>Comfortable elastic waistband</li><li>Custom chickens & flowers print</li><li>2T – 5/6</li></ul>',
@@ -927,7 +927,7 @@ window.ROWEM_PRODUCTS = {
     printKey: 'chicken-brown',
     images: [
       { src: 'assets/images/products/bows/bow-chicken-brown.jpg', alt: 'Matching Bow — Chickens & Flowers' },
-      { src: 'assets/images/products/mockups/mockup-12.jpg', alt: 'Chickens & Flowers collection mockup', mockup: true }
+      { src: 'assets/images/products/mockups/mockup-12 copy.jpg', alt: 'Chickens & Flowers collection mockup', mockup: true }
     ],
     excerpt: 'Soft bamboo bow headband in our chickens & flowers print. Pairs with the matching bamboo zippy.',
     description: '<p>Complete the outfit with a matching bow in the same matching chickens & flowers print. Soft bamboo blend, gentle on baby\'s head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom chickens & flowers print</li><li>One size, newborn through 5/6</li></ul>',
@@ -1308,7 +1308,7 @@ window.ROWEM_PRODUCTS = {
     collectionLabel: "Critter Git'r",
     collectionUrl: 'critter-gitr.html',
     images: [
-      { src: 'assets/images/products/orange-and-green-trap.jpg', alt: "Critter Git'r — Mystery Color" }
+      { src: 'assets/images/products/surprise-colors-2.jpg', alt: "Critter Git'r — Mystery Color" }
     ],
     imageContain: true,
     quote: 'Let us surprise you with a fun colorway.',
