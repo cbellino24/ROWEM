@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Terms for shopping at ROWEM. Orders, pricing, intellectual property, and liability. Family shop in Greenwood, NE.">
+  <meta name="description" content="Find ROWEM apparel, Critter Git'r traps, and Burr Paw at retail partners near you. Store locator for Nebraska and regional stockists.">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://rowemproducts.com/terms-of-service.html">
-  <title>Terms of Service | ROWEM</title>
+  <link rel="canonical" href="https://rowemproducts.com/store-locator.html">
+  <title>Store Locator | ROWEM</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;1,400&family=Trirong:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -49,9 +49,8 @@
           <a href="index.html">Home</a>
           <a href="apparel.html">Apparel</a>
           <a href="critter-gitr.html">Critter Git'r</a>
-            <a href="books.html">Children's Books</a>
-            <a href="burr-paw.html">Burr Paw</a>
-          
+          <a href="books.html">Children's Books</a>
+          <a href="burr-paw.html">Burr Paw</a>
           <a href="about.html">About</a>
         </nav>
       </div>
@@ -69,52 +68,39 @@
       <a href="critter-gitr.html" data-drawer-item>Critter Git'r</a>
       <a href="books.html" data-drawer-item>Children's Books</a>
       <a href="burr-paw.html" data-drawer-item>Burr Paw</a>
-      
       <a href="about.html" data-drawer-item>About</a>
     </nav>
   </div>
 
-  <main class="policy-page">
+  <main class="store-locator-page">
     <section class="page-hero page-hero--centered">
       <div class="wrapper page-hero__inner">
         <nav class="page-hero__breadcrumb caps" aria-label="Breadcrumb">
           <a href="index.html">Home</a>
           <span class="page-hero__breadcrumb-sep" aria-hidden="true">/</span>
-          <span aria-current="page">Terms of Service</span>
+          <span aria-current="page">Store Locator</span>
         </nav>
-        <h1>Terms of Service</h1>
-        <p class="page-hero__lede">By using rowemproducts.com and placing an order, you agree to these terms. We keep them straightforward because we want shopping with us to feel simple.</p>
+        <h1>Store Locator</h1>
+        <p class="page-hero__lede">Find ROWEM at independent retailers near you. Expand a location to see contact info and which products they carry.</p>
       </div>
     </section>
 
-    <section class="policy-content">
-      <h2>Using This Site</h2>
-      <p>You may browse and shop on rowemproducts.com for personal, non-commercial use. Please do not misuse the site, attempt to access areas you should not, or use automated tools to scrape content or place orders. We may update or suspend the site at any time.</p>
+    <section class="store-locator section-padding">
+      <div class="wrapper store-locator__inner">
+        <div class="store-locator__toolbar">
+          <p class="store-locator__note">Product listings are for reference only — availability varies by store.</p>
+          <div class="store-locator__filters" data-store-locator-filters role="group" aria-label="Filter by product">
+            <button class="store-locator__filter is-active" type="button" data-store-filter="all" aria-pressed="true">All</button>
+            <button class="store-locator__filter" type="button" data-store-filter="ROWEM Apparel" aria-pressed="false">ROWEM Apparel</button>
+            <button class="store-locator__filter" type="button" data-store-filter="Traps" aria-pressed="false">Traps</button>
+            <button class="store-locator__filter" type="button" data-store-filter="Burr Paw" aria-pressed="false">Burr Paw</button>
+          </div>
+        </div>
 
-      <h2>Orders and Pre-Orders</h2>
-      <p>When you place an order, you are offering to buy the items in your cart at the listed price. We will send a confirmation when your order is received. A contract is formed when we accept and process your payment.</p>
-      <p>Pre-orders are for items not yet in stock. Estimated ship dates are listed on the product page and may change. If a significant delay occurs, we will reach out. You may cancel a pre-order before it ships by emailing us.</p>
+        <p class="store-locator__empty" data-store-locator-empty hidden>No stores match this filter. Try another product or view all locations.</p>
 
-      <h2>Pricing</h2>
-      <p>All prices are in US dollars. We work hard to keep pricing accurate, but errors can happen. If we discover a mistake, we will contact you before charging or shipping. We reserve the right to correct pricing and to limit quantities.</p>
-
-      <h2>Intellectual Property</h2>
-      <p>Everything on this site, including logos, product photos, copy, and design, belongs to ROWEM or our licensors. You may not copy, reproduce, or use our content without written permission.</p>
-
-      <h2>Limitation of Liability</h2>
-      <p>ROWEM provides this site and our products as-is. To the fullest extent allowed by law, we are not liable for indirect, incidental, or consequential damages arising from your use of the site or our products. Our total liability for any claim related to an order is limited to the amount you paid for that order.</p>
-
-      <h2>Governing Law</h2>
-      <p>These terms are governed by the laws of the State of Nebraska, without regard to conflict of law principles. Any disputes will be handled in courts located in Nebraska.</p>
-
-      <h2>Contact</h2>
-      <p>Questions about these terms? Get in touch anytime.</p>
-      <p>
-        <strong>ROWEM</strong><br>
-        Greenwood, NE<br>
-        <a href="mailto:sales@rowemproducts.com">sales@rowemproducts.com</a><br>
-        <a href="tel:+14023220491">402-322-0491</a>
-      </p>
+        <div class="store-locator__list" data-store-locator-list aria-live="polite"></div>
+      </div>
     </section>
   </main>
 
@@ -124,14 +110,13 @@
         <div class="footer-col">
           <img src="assets/images/logo-primary.png" alt="ROWEM" class="footer-logo" width="140" height="28">
           <p class="footer-tagline">A family shop in Greenwood, NE. Bamboo kids' clothing, outdoor gear, play toys, and children's books shipped nationwide.</p>
-          
         </div>
         <nav class="footer-col" aria-label="Info">
           <h3>Info</h3>
           <a href="contact.html">Contact Us</a>
-          <a href="store-locator.html">Store Locator</a>
+          <a href="store-locator.html" aria-current="page">Store Locator</a>
           <a href="privacy-policy.html">Privacy Policy</a>
-          <a href="terms-of-service.html" aria-current="page">Terms of Service</a>
+          <a href="terms-of-service.html">Terms of Service</a>
           <a href="shipping-returns.html">Shipping &amp; Returns</a>
           <a href="size-guide.html">Size Guide</a>
         </nav>
@@ -142,23 +127,25 @@
           <p><a href="tel:+14023220491">402-322-0491</a></p>
           <a href="https://www.instagram.com/rowemproducts/" target="_blank" rel="noopener noreferrer">Instagram</a>
           <a href="#">Facebook</a>
-          
         </div>
       </div>
       <div class="footer-aside">
-      <ul class="footer-payment-list" aria-label="Accepted payment methods">
-        <li class="footer-payment-list__item"><img src="assets/images/payments/visa.svg" alt="Visa" width="66" height="44" loading="lazy"></li>
-        <li class="footer-payment-list__item"><img src="assets/images/payments/mastercard.svg" alt="Mastercard" width="66" height="44" loading="lazy"></li>
-        <li class="footer-payment-list__item"><img src="assets/images/payments/amex.svg" alt="American Express" width="66" height="44" loading="lazy"></li>
-        <li class="footer-payment-list__item"><img src="assets/images/payments/discover.svg" alt="Discover" width="66" height="44" loading="lazy"></li>
-        <li class="footer-payment-list__item"><img src="assets/images/payments/apple-pay.svg" alt="Apple Pay" width="66" height="44" loading="lazy"></li>
-        <li class="footer-payment-list__item"><img src="assets/images/payments/paypal.svg" alt="PayPal" width="66" height="44" loading="lazy"></li>
-      </ul>
+        <ul class="footer-payment-list" aria-label="Accepted payment methods">
+          <li class="footer-payment-list__item"><img src="assets/images/payments/visa.svg" alt="Visa" width="66" height="44" loading="lazy"></li>
+          <li class="footer-payment-list__item"><img src="assets/images/payments/mastercard.svg" alt="Mastercard" width="66" height="44" loading="lazy"></li>
+          <li class="footer-payment-list__item"><img src="assets/images/payments/amex.svg" alt="American Express" width="66" height="44" loading="lazy"></li>
+          <li class="footer-payment-list__item"><img src="assets/images/payments/discover.svg" alt="Discover" width="66" height="44" loading="lazy"></li>
+          <li class="footer-payment-list__item"><img src="assets/images/payments/apple-pay.svg" alt="Apple Pay" width="66" height="44" loading="lazy"></li>
+          <li class="footer-payment-list__item"><img src="assets/images/payments/paypal.svg" alt="PayPal" width="66" height="44" loading="lazy"></li>
+        </ul>
       </div>
       <p class="footer-copy">&copy; 2026 ROWEM. All rights reserved.</p>
     </div>
   </footer>
+
   <script src="assets/js/cart.js" defer></script>
+  <script src="assets/js/stores.js" defer></script>
+  <script src="assets/js/store-locator.js" defer></script>
   <script src="assets/js/main.js" defer></script>
 </body>
 </html>
