@@ -41,6 +41,7 @@
 </head>
 <body data-animations="true">
 
+  <!-- announcement-bar -->
   <div class="shopify-section page-announcement">
     <div class="announcement__wrapper">
       <div class="announcement__text body-small">
@@ -49,9 +50,12 @@
     </div>
   </div>
 
+  <!-- header -->
   <header class="shopify-section page-header" data-header>
     <div class="theme__header">
       <div class="section-padding">
+
+        <!-- mobile header -->
         <div class="header__mobile caps">
           <div class="header__mobile__left">
             <button class="navlink header__mobile__hamburger" type="button" aria-label="Open menu" data-menu-toggle>
@@ -71,6 +75,8 @@
             </a>
           </div>
         </div>
+
+        <!-- desktop header -->
         <div class="header__desktop">
           <div class="header__desktop__upper">
             <div class="header__desktop__bar__l"><span class="header__tagline caps">Apparel, Gifts, Gear</span></div>
@@ -95,14 +101,20 @@
             <a href="critter-gitr.html">Critter Git'r</a>
             <a href="books.html">Children's Books</a>
             <a href="burr-paw.html">Burr Paw</a>
-            
-            <a href="about.html" aria-current="page">About</a>
+            <div class="header__nav-item header__nav-item--has-menu">
+              <a href="about.html" class="header__nav-link" aria-current="page">About</a>
+              <div class="header__nav-menu" role="menu" aria-label="About">
+                <a href="locations.html" class="header__nav-menu-link" role="menuitem">Find ROWEM in Stores</a>
+              </div>
+            </div>
           </nav>
         </div>
+
       </div>
     </div>
   </header>
 
+  <!-- mobile drawer -->
   <div class="drawer__overlay" data-menu-overlay aria-hidden="true"></div>
   <div class="drawer" data-mobile-nav aria-hidden="true">
     <div class="drawer__close-row">
@@ -117,8 +129,8 @@
       <a href="critter-gitr.html" data-drawer-item>Critter Git'r</a>
       <a href="books.html" data-drawer-item>Children's Books</a>
       <a href="burr-paw.html" data-drawer-item>Burr Paw</a>
-      
       <a href="about.html" data-drawer-item aria-current="page">About</a>
+      <a href="locations.html" data-drawer-item class="drawer__sub">Find ROWEM in Stores</a>
     </nav>
   </div>
 
@@ -508,7 +520,7 @@
         <nav class="footer-col" aria-label="Info">
           <h3>Info</h3>
           <a href="contact.html">Contact Us</a>
-          <a href="store-locator.html">Store Locator</a>
+          <a href="locations.html">Locations</a>
           <a href="privacy-policy.html">Privacy Policy</a>
           <a href="terms-of-service.html">Terms of Service</a>
           <a href="shipping-returns.html">Shipping &amp; Returns</a>

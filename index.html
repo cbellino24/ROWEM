@@ -77,8 +77,12 @@
             <a href="critter-gitr.html">Critter Git'r</a>
             <a href="books.html">Children's Books</a>
             <a href="burr-paw.html">Burr Paw</a>
-            
-            <a href="about.html">About</a>
+            <div class="header__nav-item header__nav-item--has-menu">
+              <a href="about.html" class="header__nav-link">About</a>
+              <div class="header__nav-menu" role="menu" aria-label="About">
+                <a href="locations.html" class="header__nav-menu-link" role="menuitem">Find ROWEM in Stores</a>
+              </div>
+            </div>
           </nav>
         </div>
 
@@ -101,8 +105,8 @@
       <a href="critter-gitr.html" data-drawer-item>Critter Git'r</a>
       <a href="books.html" data-drawer-item>Children's Books</a>
       <a href="burr-paw.html" data-drawer-item>Burr Paw</a>
-      
       <a href="about.html" data-drawer-item>About</a>
+      <a href="locations.html" data-drawer-item class="drawer__sub">Find ROWEM in Stores</a>
     </nav>
   </div>
 
@@ -227,9 +231,10 @@
           <div class="product-item product-item--centered" id="p-tr2"><div class="product-item__image"><a class="product-link" href="product.html?id=p-tr2"><div class="product-item__bg product-item__bg--default product-item__bg--contain"><img src="assets/images/products/trap-2-uniform.png" alt="Critter Git'r Black &amp; White" loading="lazy"></div></a></div><div class="product-item__info body-medium"><p class="product-item__title">Black &amp; White</p><div class="product-item__price">$22.00</div></div></div>
           <div class="product-item product-item--centered" id="p-tr4"><div class="product-item__image"><a class="product-link" href="product.html?id=p-tr4"><div class="product-item__bg product-item__bg--default product-item__bg--contain"><img src="assets/images/products/gra-and-black-edit-2.png" alt="Critter Git'r Gray &amp; Black" loading="lazy"></div></a></div><div class="product-item__info body-medium"><p class="product-item__title">Gray &amp; Black</p><div class="product-item__price">$22.00</div></div></div>
         </div>
-        <div class="grid grid--slider grid--slider--center index-products__trap-row index-products__trap-row--secondary">
-          <div class="product-item product-item--centered" id="p-tr5"><div class="product-item__image"><a class="product-link" href="product.html?id=p-tr5"><div class="product-item__bg product-item__bg--default product-item__bg--contain"><img src="assets/images/products/orange-and-green-trap.jpg" alt="Critter Git'r Mystery" loading="lazy"></div></a></div><div class="product-item__info body-medium"><p class="product-item__title">Mystery Color</p><div class="product-item__price">$22.00</div></div></div>
-        </div>
+        <p class="index-products__more"><a href="critter-gitr.html" class="index-products__more-link caps">View All Critter Git'r</a></p>
+        <figure class="index-products__spotlight">
+          <img src="assets/images/products/racoon-trap-2.png" alt="Critter Git'r play trap" loading="lazy">
+        </figure>
       </div>
     </section>
 
@@ -696,7 +701,7 @@
         <nav class="footer-col" aria-label="Info">
           <h3>Info</h3>
           <a href="contact.html">Contact Us</a>
-          <a href="store-locator.html">Store Locator</a>
+          <a href="locations.html">Locations</a>
           <a href="privacy-policy.html">Privacy Policy</a>
           <a href="terms-of-service.html">Terms of Service</a>
           <a href="shipping-returns.html">Shipping &amp; Returns</a>
