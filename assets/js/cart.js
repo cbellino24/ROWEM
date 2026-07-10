@@ -11,7 +11,26 @@
   function getItems() {
     try {
       var raw = localStorage.getItem(STORAGE_KEY);
-      return raw ? JSON.parse(raw) : [];
+      var items = raw ? JSON.parse(raw) : [];
+      if (!Array.isArray(items)) return [];
+      var changed = false;
+      items.forEach(function (item) {
+        var liveTitle = resolveProductTitle(item.id, item.title);
+        if (liveTitle && item.title !== liveTitle) {
+          item.title = liveTitle;
+          changed = true;
+        }
+        var nextSize = normalizeSize(item.size);
+        if (nextSize !== (item.size || '')) {
+          item.size = nextSize;
+          item.key = lineKey(item.id, nextSize);
+          changed = true;
+        }
+      });
+      if (changed) {
+        try { localStorage.setItem(STORAGE_KEY, JSON.stringify(items)); } catch (e) { /* ignore */ }
+      }
+      return items;
     } catch (e) {
       return [];
     }
@@ -68,23 +87,51 @@
     });
   }
 
+  var TITLE_OVERRIDES = {
+    'p-bp1': 'Burr Paw - Tan',
+    'p-bp2': 'Burr Paw - Black',
+    'p-bp3': 'Burr Paw - Orange'
+  };
+
+  function resolveProductTitle(id, fallback) {
+    var product = window.ROWEM_PRODUCTS && window.ROWEM_PRODUCTS[id];
+    if (product && product.title) return product.title;
+    if (TITLE_OVERRIDES[id]) return TITLE_OVERRIDES[id];
+    if (fallback && /^colorway\s*\d+$/i.test(String(fallback).trim())) {
+      return TITLE_OVERRIDES[id] || fallback;
+    }
+    return fallback || '';
+  }
+
+  function normalizeSize(size) {
+    if (!size) return '';
+    // Legacy Burr Paw variant labels stored before color names were fixed
+    if (/^colorway\s*\d+$/i.test(String(size).trim())) return '';
+    return size;
+  }
+
   function addItem(item) {
     var items = getItems();
-    var key = lineKey(item.id, item.size);
+    var size = normalizeSize(item.size);
+    var key = lineKey(item.id, size);
+    var title = resolveProductTitle(item.id, item.title);
     var existing = items.find(function (entry) {
       return entry.key === key;
     });
 
     if (existing) {
       existing.quantity = Math.min(99, existing.quantity + item.quantity);
+      existing.title = title;
+      if (item.image) existing.image = item.image;
+      if (item.compareAtPrice != null) existing.compareAtPrice = item.compareAtPrice;
     } else {
       items.push({
         key: key,
         id: item.id,
-        title: item.title,
+        title: title,
         price: item.price,
         compareAtPrice: item.compareAtPrice || null,
-        size: item.size || '',
+        size: size,
         quantity: item.quantity,
         image: item.image,
         url: item.url
