@@ -43,6 +43,19 @@
     }, 0);
   }
 
+  function getCompareSubtotal() {
+    return getItems().reduce(function (sum, item) {
+      var compare = typeof item.compareAtPrice === 'number' && item.compareAtPrice > item.price
+        ? item.compareAtPrice
+        : item.price;
+      return sum + compare * item.quantity;
+    }, 0);
+  }
+
+  function getSavings() {
+    return Math.max(0, getCompareSubtotal() - getSubtotal());
+  }
+
   function getShipping(subtotal) {
     subtotal = typeof subtotal === 'number' ? subtotal : getSubtotal();
     return subtotal >= FREE_SHIPPING_THRESHOLD ? 0 : FLAT_RATE_SHIPPING;
@@ -70,6 +83,7 @@
         id: item.id,
         title: item.title,
         price: item.price,
+        compareAtPrice: item.compareAtPrice || null,
         size: item.size || '',
         quantity: item.quantity,
         image: item.image,
@@ -114,7 +128,11 @@
     });
     var subtotal = getSubtotal();
     var shipping = getShipping(subtotal);
+    var savings = getSavings();
     lines.push('', 'Subtotal: ' + formatPrice(subtotal));
+    if (savings > 0) {
+      lines.push('You saved: ' + formatPrice(savings));
+    }
     lines.push('Shipping: ' + (shipping ? formatPrice(shipping) : 'Free'));
     lines.push('Total: ' + formatPrice(subtotal + shipping));
     return encodeURIComponent(lines.join('\n'));
@@ -127,6 +145,7 @@
       id: product.id,
       title: product.title,
       price: product.price,
+      compareAtPrice: product.compareAtPrice || null,
       size: options.size || '',
       quantity: options.quantity || 1,
       image: product.images && product.images[0] ? product.images[0].src : '',
@@ -141,6 +160,8 @@
     getItems: getItems,
     getCount: getCount,
     getSubtotal: getSubtotal,
+    getCompareSubtotal: getCompareSubtotal,
+    getSavings: getSavings,
     getShipping: getShipping,
     addItem: addItem,
     addFromProduct: addFromProduct,

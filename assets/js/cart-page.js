@@ -49,10 +49,17 @@
     var subtotal = window.ROWEM_CART.getSubtotal();
     var threshold = window.ROWEM_CART.FREE_SHIPPING_THRESHOLD;
     var shipping = window.ROWEM_CART.getShipping(subtotal);
+    var savings = window.ROWEM_CART.getSavings ? window.ROWEM_CART.getSavings() : 0;
     var remaining = Math.max(0, threshold - subtotal);
     var shippingNote = remaining > 0
       ? 'Add ' + window.ROWEM_CART.formatPrice(remaining) + ' more for free shipping, or pay ' + window.ROWEM_CART.formatPrice(window.ROWEM_CART.FLAT_RATE_SHIPPING) + ' flat-rate shipping.'
       : 'You qualify for free shipping.';
+    var savingsRow = savings > 0
+      ? '<div class="cart-summary__row cart-summary__row--savings">' +
+          '<span>You saved</span>' +
+          '<span>' + window.ROWEM_CART.formatPrice(savings) + '</span>' +
+        '</div>'
+      : '';
 
     summaryEl.innerHTML =
       '<div class="cart-summary">' +
@@ -61,6 +68,7 @@
           '<span>Subtotal</span>' +
           '<span data-cart-subtotal>' + window.ROWEM_CART.formatPrice(subtotal) + '</span>' +
         '</div>' +
+        savingsRow +
         '<div class="cart-summary__row">' +
           '<span>Shipping</span>' +
           '<span>' + (shipping ? window.ROWEM_CART.formatPrice(shipping) : 'Free') + '</span>' +
