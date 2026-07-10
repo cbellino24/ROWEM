@@ -407,7 +407,7 @@ a.navlink { text-decoration: none; }
 @media (max-width: 749px) {
   .hero__banner-logo { width: clamp(6.5rem, 34vw, 8.75rem); }
   .index-hero--banner .hero__banner-center {
-    transform: translateY(-19%);
+    transform: translateY(-21%);
   }
   .index-hero--banner .hero__banner-cta {
     bottom: calc(clamp(0.875rem, 4vw, 1.5rem) + 10%);
