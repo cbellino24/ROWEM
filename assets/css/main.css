@@ -590,6 +590,84 @@ a.navlink { text-decoration: none; }
   visibility: visible;
 }
 
+/* Homepage About Us — mountain + logo left, copy right */
+.shopify-section--about-home {
+  background: var(--color-white);
+}
+.about-home {
+  padding-block: clamp(2.5rem, 6vw, 4.5rem);
+}
+.about-home__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: center;
+}
+.about-home__brand {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: clamp(12rem, 28vw, 18rem);
+}
+.about-home__mountain {
+  width: min(100%, 22rem);
+  height: auto;
+  opacity: 0.18;
+  filter: brightness(0) saturate(100%) invert(22%) sepia(12%) saturate(1200%) hue-rotate(98deg) brightness(95%);
+}
+.about-home__logo {
+  position: absolute;
+  left: 50%;
+  top: 43%;
+  transform: translate(-50%, -50%);
+  width: clamp(9rem, 18vw, 13rem);
+  height: auto;
+  filter: invert(1);
+  z-index: 1;
+}
+.about-home__copy {
+  max-width: 32rem;
+}
+.about-home__heading {
+  font-family: var(--font-heading);
+  font-size: clamp(1.75rem, 3.5vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-forest);
+  margin: 0 0 1rem;
+}
+.about-home__copy p {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--color-text-muted);
+  margin: 0 0 1.5rem;
+}
+.about-home__copy a:not(.btn) {
+  color: var(--color-forest);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+@media (max-width: 749px) {
+  .about-home__inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 1.75rem;
+  }
+  .about-home__brand {
+    min-height: 10rem;
+  }
+  .about-home__mountain {
+    width: min(100%, 16rem);
+  }
+  .about-home__logo {
+    width: clamp(8rem, 42vw, 11rem);
+  }
+  .about-home__copy {
+    max-width: none;
+    margin-inline: auto;
+  }
+}
+
 .images-with-text-scroll__dots {
   grid-column: 1 / -1;
   display: flex;
