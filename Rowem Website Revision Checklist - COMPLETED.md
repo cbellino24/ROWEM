@@ -66,7 +66,7 @@ Legend: ✅ Done · ⚠️ Partial (needs client asset) · ❌ Not done
 
 ## Books
 
-- ✅ Correct book title names (The Flight, Off the Boost, etc.)
+- ✅ Correct book title names (The Flight, Off the Roost, etc.)
 - ✅ Remove author visit / welcometoourfarmlife links
 - ✅ "Who are books for?" — Our 11 titles, Ideal for ages 4–10
 - ✅ Removed crossed-out farm/hunting/outdoors language in FAQ
