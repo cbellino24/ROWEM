@@ -17,7 +17,7 @@ window.ROWEM_PRODUCTS = {
     images: [
       {
         src: "assets/images/products/zippie-purple-geo.png",
-        alt: "BAMBOO ZIPPY — Aztec"
+        alt: "Bamboo Zippy — Aztec"
       },
       {
         src: "assets/images/products/mockups/mockup-01 copy.jpg",
@@ -26,7 +26,7 @@ window.ROWEM_PRODUCTS = {
       }
     ],
     excerpt: "Our Aztec print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.",
-    description: "<p>Designed and sewn from our softest bamboo blend, this BAMBOO ZIPPY features our custom Aztec print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom Aztec print</li><li>0-3M – 2T</li></ul>",
+    description: "<p>Designed and sewn from our softest bamboo blend, this Bamboo Zippy features our custom Aztec print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom Aztec print</li><li>0-3M – 2T</li></ul>",
     details: {
       Material: "Bamboo blend",
       Sizes: "0-3M – 2T",
@@ -108,7 +108,7 @@ window.ROWEM_PRODUCTS = {
         mockup: true
       }
     ],
-    excerpt: "Soft bamboo bow headband in our Aztec print. Pairs with the matching BAMBOO ZIPPY.",
+    excerpt: "Soft bamboo bow headband in our Aztec print. Pairs with the matching Bamboo Zippy.",
     description: "<p>Complete the outfit with a matching bow in the same matching Aztec print. Soft bamboo blend, gentle on baby's head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom Aztec print</li><li>One size, 0-3M through 3T</li></ul>",
     details: {
       Material: "Bamboo blend",
@@ -137,7 +137,7 @@ window.ROWEM_PRODUCTS = {
     images: [
       {
         src: "assets/images/products/zippie-camo.png",
-        alt: "BAMBOO ZIPPY — Old School Camo"
+        alt: "Bamboo Zippy — Old School Camo"
       },
       {
         src: "assets/images/products/mockups/mockup-02 copy.jpg",
@@ -146,7 +146,7 @@ window.ROWEM_PRODUCTS = {
       }
     ],
     excerpt: "Our old school camo print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.",
-    description: "<p>Designed and sewn from our softest bamboo blend, this BAMBOO ZIPPY features our custom old school camo print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom old school camo print</li><li>0-3M – 2T</li></ul>",
+    description: "<p>Designed and sewn from our softest bamboo blend, this Bamboo Zippy features our custom old school camo print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom old school camo print</li><li>0-3M – 2T</li></ul>",
     details: {
       Material: "Bamboo blend",
       Sizes: "0-3M – 2T",
@@ -228,7 +228,7 @@ window.ROWEM_PRODUCTS = {
         mockup: true
       }
     ],
-    excerpt: "Soft bamboo bow headband in our old school camo print. Pairs with the matching BAMBOO ZIPPY.",
+    excerpt: "Soft bamboo bow headband in our old school camo print. Pairs with the matching Bamboo Zippy.",
     description: "<p>Complete the outfit with a matching bow in the same matching old school camo print. Soft bamboo blend, gentle on baby's head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom old school camo print</li><li>One size, 0-3M through 3T</li></ul>",
     details: {
       Material: "Bamboo blend",
@@ -257,7 +257,7 @@ window.ROWEM_PRODUCTS = {
     images: [
       {
         src: "assets/images/products/zippie-leopard.png",
-        alt: "BAMBOO ZIPPY — Colorful Cheetah"
+        alt: "Bamboo Zippy — Colorful Cheetah"
       },
       {
         src: "assets/images/products/mockups/mockup-03 copy.jpg",
@@ -266,7 +266,7 @@ window.ROWEM_PRODUCTS = {
       }
     ],
     excerpt: "Our colorful cheetah print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.",
-    description: "<p>Designed and sewn from our softest bamboo blend, this BAMBOO ZIPPY features our custom colorful cheetah print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom colorful cheetah print</li><li>0-3M – 2T</li></ul>",
+    description: "<p>Designed and sewn from our softest bamboo blend, this Bamboo Zippy features our custom colorful cheetah print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom colorful cheetah print</li><li>0-3M – 2T</li></ul>",
     details: {
       Material: "Bamboo blend",
       Sizes: "0-3M – 2T",
@@ -348,7 +348,7 @@ window.ROWEM_PRODUCTS = {
         mockup: true
       }
     ],
-    excerpt: "Soft bamboo bow headband in our colorful cheetah print. Pairs with the matching BAMBOO ZIPPY.",
+    excerpt: "Soft bamboo bow headband in our colorful cheetah print. Pairs with the matching Bamboo Zippy.",
     description: "<p>Complete the outfit with a matching bow in the same matching colorful cheetah print. Soft bamboo blend, gentle on baby's head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom colorful cheetah print</li><li>One size, 0-3M through 3T</li></ul>",
     details: {
       Material: "Bamboo blend",
@@ -377,7 +377,7 @@ window.ROWEM_PRODUCTS = {
     images: [
       {
         src: "assets/images/products/zippie-chicken.png",
-        alt: "BAMBOO ZIPPY — Colorful Chickens"
+        alt: "Bamboo Zippy — Colorful Chickens"
       },
       {
         src: "assets/images/products/mockups/mockup-04 copy.jpg",
@@ -386,7 +386,7 @@ window.ROWEM_PRODUCTS = {
       }
     ],
     excerpt: "Our colorful chickens print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.",
-    description: "<p>Designed and sewn from our softest bamboo blend, this BAMBOO ZIPPY features our custom colorful chickens print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom colorful chickens print</li><li>0-3M – 2T</li></ul>",
+    description: "<p>Designed and sewn from our softest bamboo blend, this Bamboo Zippy features our custom colorful chickens print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom colorful chickens print</li><li>0-3M – 2T</li></ul>",
     details: {
       Material: "Bamboo blend",
       Sizes: "0-3M – 2T",
@@ -468,7 +468,7 @@ window.ROWEM_PRODUCTS = {
         mockup: true
       }
     ],
-    excerpt: "Soft bamboo bow headband in our colorful chickens print. Pairs with the matching BAMBOO ZIPPY.",
+    excerpt: "Soft bamboo bow headband in our colorful chickens print. Pairs with the matching Bamboo Zippy.",
     description: "<p>Complete the outfit with a matching bow in the same matching colorful chickens print. Soft bamboo blend, gentle on baby's head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom colorful chickens print</li><li>One size, 0-3M through 3T</li></ul>",
     details: {
       Material: "Bamboo blend",
@@ -497,7 +497,7 @@ window.ROWEM_PRODUCTS = {
     images: [
       {
         src: "assets/images/products/zippie-western.png",
-        alt: "BAMBOO ZIPPY — Western"
+        alt: "Bamboo Zippy — Western"
       },
       {
         src: "assets/images/products/mockups/mockup-05 copy.jpg",
@@ -506,7 +506,7 @@ window.ROWEM_PRODUCTS = {
       }
     ],
     excerpt: "Our Western print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.",
-    description: "<p>Designed and sewn from our softest bamboo blend, this BAMBOO ZIPPY features our custom Western print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom Western print</li><li>0-3M – 2T</li></ul>",
+    description: "<p>Designed and sewn from our softest bamboo blend, this Bamboo Zippy features our custom Western print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom Western print</li><li>0-3M – 2T</li></ul>",
     details: {
       Material: "Bamboo blend",
       Sizes: "0-3M – 2T",
@@ -588,7 +588,7 @@ window.ROWEM_PRODUCTS = {
         mockup: true
       }
     ],
-    excerpt: "Soft bamboo bow headband in our Western print. Pairs with the matching BAMBOO ZIPPY.",
+    excerpt: "Soft bamboo bow headband in our Western print. Pairs with the matching Bamboo Zippy.",
     description: "<p>Complete the outfit with a matching bow in the same matching Western print. Soft bamboo blend, gentle on baby's head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom Western print</li><li>One size, 0-3M through 3T</li></ul>",
     details: {
       Material: "Bamboo blend",
@@ -617,7 +617,7 @@ window.ROWEM_PRODUCTS = {
     images: [
       {
         src: "assets/images/products/zippie-pastel-camo.png",
-        alt: "BAMBOO ZIPPY — Colorful Camo"
+        alt: "Bamboo Zippy — Colorful Camo"
       },
       {
         src: "assets/images/products/mockups/mockup-06 copy.jpg",
@@ -626,7 +626,7 @@ window.ROWEM_PRODUCTS = {
       }
     ],
     excerpt: "Our colorful camo print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.",
-    description: "<p>Designed and sewn from our softest bamboo blend, this BAMBOO ZIPPY features our custom colorful camo print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom colorful camo print</li><li>0-3M – 2T</li></ul>",
+    description: "<p>Designed and sewn from our softest bamboo blend, this Bamboo Zippy features our custom colorful camo print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom colorful camo print</li><li>0-3M – 2T</li></ul>",
     details: {
       Material: "Bamboo blend",
       Sizes: "0-3M – 2T",
@@ -708,7 +708,7 @@ window.ROWEM_PRODUCTS = {
         mockup: true
       }
     ],
-    excerpt: "Soft bamboo bow headband in our colorful camo print. Pairs with the matching BAMBOO ZIPPY.",
+    excerpt: "Soft bamboo bow headband in our colorful camo print. Pairs with the matching Bamboo Zippy.",
     description: "<p>Complete the outfit with a matching bow in the same matching colorful camo print. Soft bamboo blend, gentle on baby's head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom colorful camo print</li><li>One size, 0-3M through 3T</li></ul>",
     details: {
       Material: "Bamboo blend",
@@ -737,7 +737,7 @@ window.ROWEM_PRODUCTS = {
     images: [
       {
         src: "assets/images/products/zippie-farm.png",
-        alt: "BAMBOO ZIPPY — Farm"
+        alt: "Bamboo Zippy — Farm"
       },
       {
         src: "assets/images/products/mockups/mockup-07 copy.jpg",
@@ -746,7 +746,7 @@ window.ROWEM_PRODUCTS = {
       }
     ],
     excerpt: "Our Farm print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.",
-    description: "<p>Designed and sewn from our softest bamboo blend, this BAMBOO ZIPPY features our custom Farm print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom Farm print</li><li>0-3M – 2T</li></ul>",
+    description: "<p>Designed and sewn from our softest bamboo blend, this Bamboo Zippy features our custom Farm print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom Farm print</li><li>0-3M – 2T</li></ul>",
     details: {
       Material: "Bamboo blend",
       Sizes: "0-3M – 2T",
@@ -828,7 +828,7 @@ window.ROWEM_PRODUCTS = {
         mockup: true
       }
     ],
-    excerpt: "Soft bamboo bow headband in our Farm print. Pairs with the matching BAMBOO ZIPPY.",
+    excerpt: "Soft bamboo bow headband in our Farm print. Pairs with the matching Bamboo Zippy.",
     description: "<p>Complete the outfit with a matching bow in the same matching Farm print. Soft bamboo blend, gentle on baby's head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom Farm print</li><li>One size, 0-3M through 3T</li></ul>",
     details: {
       Material: "Bamboo blend",
@@ -857,7 +857,7 @@ window.ROWEM_PRODUCTS = {
     images: [
       {
         src: "assets/images/products/zippie-wildflowers.png",
-        alt: "BAMBOO ZIPPY — Floral"
+        alt: "Bamboo Zippy — Floral"
       },
       {
         src: "assets/images/products/mockups/mockup-08 copy.jpg",
@@ -866,7 +866,7 @@ window.ROWEM_PRODUCTS = {
       }
     ],
     excerpt: "Our floral print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.",
-    description: "<p>Designed and sewn from our softest bamboo blend, this BAMBOO ZIPPY features our custom floral print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom floral print</li><li>0-3M – 2T</li></ul>",
+    description: "<p>Designed and sewn from our softest bamboo blend, this Bamboo Zippy features our custom floral print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom floral print</li><li>0-3M – 2T</li></ul>",
     details: {
       Material: "Bamboo blend",
       Sizes: "0-3M – 2T",
@@ -948,7 +948,7 @@ window.ROWEM_PRODUCTS = {
         mockup: true
       }
     ],
-    excerpt: "Soft bamboo bow headband in our floral print. Pairs with the matching BAMBOO ZIPPY.",
+    excerpt: "Soft bamboo bow headband in our floral print. Pairs with the matching Bamboo Zippy.",
     description: "<p>Complete the outfit with a matching bow in the same matching floral print. Soft bamboo blend, gentle on baby's head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom floral print</li><li>One size, 0-3M through 3T</li></ul>",
     details: {
       Material: "Bamboo blend",
@@ -977,7 +977,7 @@ window.ROWEM_PRODUCTS = {
     images: [
       {
         src: "assets/images/products/zippie-pastel-mint.png",
-        alt: "BAMBOO ZIPPY — Pastel Camo"
+        alt: "Bamboo Zippy — Pastel Camo"
       },
       {
         src: "assets/images/products/mockups/mockup-09 copy.jpg",
@@ -986,7 +986,7 @@ window.ROWEM_PRODUCTS = {
       }
     ],
     excerpt: "Our pastel camo print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.",
-    description: "<p>Designed and sewn from our softest bamboo blend, this BAMBOO ZIPPY features our custom pastel camo print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom pastel camo print</li><li>0-3M – 2T</li></ul>",
+    description: "<p>Designed and sewn from our softest bamboo blend, this Bamboo Zippy features our custom pastel camo print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom pastel camo print</li><li>0-3M – 2T</li></ul>",
     details: {
       Material: "Bamboo blend",
       Sizes: "0-3M – 2T",
@@ -1068,7 +1068,7 @@ window.ROWEM_PRODUCTS = {
         mockup: true
       }
     ],
-    excerpt: "Soft bamboo bow headband in our pastel camo print. Pairs with the matching BAMBOO ZIPPY.",
+    excerpt: "Soft bamboo bow headband in our pastel camo print. Pairs with the matching Bamboo Zippy.",
     description: "<p>Complete the outfit with a matching bow in the same matching pastel camo print. Soft bamboo blend, gentle on baby's head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom pastel camo print</li><li>One size, 0-3M through 3T</li></ul>",
     details: {
       Material: "Bamboo blend",
@@ -1097,7 +1097,7 @@ window.ROWEM_PRODUCTS = {
     images: [
       {
         src: "assets/images/products/zippie-wilderness.png",
-        alt: "BAMBOO ZIPPY — Mountain Life"
+        alt: "Bamboo Zippy — Mountain Life"
       },
       {
         src: "assets/images/products/mockups/mockup-10 copy.jpg",
@@ -1106,7 +1106,7 @@ window.ROWEM_PRODUCTS = {
       }
     ],
     excerpt: "Our Mountain Life print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.",
-    description: "<p>Designed and sewn from our softest bamboo blend, this BAMBOO ZIPPY features our custom Mountain Life print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom Mountain Life print</li><li>0-3M – 2T</li></ul>",
+    description: "<p>Designed and sewn from our softest bamboo blend, this Bamboo Zippy features our custom Mountain Life print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom Mountain Life print</li><li>0-3M – 2T</li></ul>",
     details: {
       Material: "Bamboo blend",
       Sizes: "0-3M – 2T",
@@ -1188,7 +1188,7 @@ window.ROWEM_PRODUCTS = {
         mockup: true
       }
     ],
-    excerpt: "Soft bamboo bow headband in our Mountain Life print. Pairs with the matching BAMBOO ZIPPY.",
+    excerpt: "Soft bamboo bow headband in our Mountain Life print. Pairs with the matching Bamboo Zippy.",
     description: "<p>Complete the outfit with a matching bow in the same matching Mountain Life print. Soft bamboo blend, gentle on baby's head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom Mountain Life print</li><li>One size, 0-3M through 3T</li></ul>",
     details: {
       Material: "Bamboo blend",
@@ -1217,7 +1217,7 @@ window.ROWEM_PRODUCTS = {
     images: [
       {
         src: "assets/images/products/zippie-animal-tracks.png",
-        alt: "BAMBOO ZIPPY — Tracks"
+        alt: "Bamboo Zippy — Tracks"
       },
       {
         src: "assets/images/products/mockups/mockup-11 copy.jpg",
@@ -1226,7 +1226,7 @@ window.ROWEM_PRODUCTS = {
       }
     ],
     excerpt: "Our Tracks print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.",
-    description: "<p>Designed and sewn from our softest bamboo blend, this BAMBOO ZIPPY features our custom Tracks print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom Tracks print</li><li>0-3M – 2T</li></ul>",
+    description: "<p>Designed and sewn from our softest bamboo blend, this Bamboo Zippy features our custom Tracks print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom Tracks print</li><li>0-3M – 2T</li></ul>",
     details: {
       Material: "Bamboo blend",
       Sizes: "0-3M – 2T",
@@ -1308,7 +1308,7 @@ window.ROWEM_PRODUCTS = {
         mockup: true
       }
     ],
-    excerpt: "Soft bamboo bow headband in our Tracks print. Pairs with the matching BAMBOO ZIPPY.",
+    excerpt: "Soft bamboo bow headband in our Tracks print. Pairs with the matching Bamboo Zippy.",
     description: "<p>Complete the outfit with a matching bow in the same matching Tracks print. Soft bamboo blend, gentle on baby's head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom Tracks print</li><li>One size, 0-3M through 3T</li></ul>",
     details: {
       Material: "Bamboo blend",
@@ -1337,7 +1337,7 @@ window.ROWEM_PRODUCTS = {
     images: [
       {
         src: "assets/images/products/zippie-chicken-brown.png",
-        alt: "BAMBOO ZIPPY — Chickens & Flowers"
+        alt: "Bamboo Zippy — Chickens & Flowers"
       },
       {
         src: "assets/images/products/mockups/mockup-12 copy.jpg",
@@ -1346,7 +1346,7 @@ window.ROWEM_PRODUCTS = {
       }
     ],
     excerpt: "Our chickens & flowers print on soft bamboo. Breathable, gentle on skin, and made for kids who live outside.",
-    description: "<p>Designed and sewn from our softest bamboo blend, this BAMBOO ZIPPY features our custom chickens & flowers print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom chickens & flowers print</li><li>0-3M – 2T</li></ul>",
+    description: "<p>Designed and sewn from our softest bamboo blend, this Bamboo Zippy features our custom chickens & flowers print. Two-way zip, fold-over cuffs, and comfort for muddy backyards and sleepy nights.</p><p>We know that childhood adventures don't stop for clothing changes, which is why our bamboo apparel transitions seamlessly from rough-and-tumble outdoor exploring to a cozy night's sleep.</p><ul><li>Premium bamboo blend</li><li>Two-way zip for easy changes</li><li>Custom chickens & flowers print</li><li>0-3M – 2T</li></ul>",
     details: {
       Material: "Bamboo blend",
       Sizes: "0-3M – 2T",
@@ -1428,7 +1428,7 @@ window.ROWEM_PRODUCTS = {
         mockup: true
       }
     ],
-    excerpt: "Soft bamboo bow headband in our chickens & flowers print. Pairs with the matching BAMBOO ZIPPY.",
+    excerpt: "Soft bamboo bow headband in our chickens & flowers print. Pairs with the matching Bamboo Zippy.",
     description: "<p>Complete the outfit with a matching bow in the same matching chickens & flowers print. Soft bamboo blend, gentle on baby's head, and made to coordinate with our apparel.</p><ul><li>Premium bamboo blend</li><li>Wide, comfortable headband</li><li>Custom chickens & flowers print</li><li>One size, 0-3M through 3T</li></ul>",
     details: {
       Material: "Bamboo blend",
@@ -1856,7 +1856,7 @@ window.ROWEM_PRODUCTS = {
   },
   "p-bk8": {
     id: "p-bk8",
-    title: "The Golden Sea",
+    title: "My Golden Sea",
     price: 20,
     category: "farm-ranch",
     categoryLabel: "Farm & Ranch",
@@ -1866,7 +1866,7 @@ window.ROWEM_PRODUCTS = {
     images: [
       {
         src: "assets/images/products/books/book-the-golden-sea.jpg",
-        alt: "The Golden Sea"
+        alt: "My Golden Sea"
       }
     ],
     imageContain: true,
