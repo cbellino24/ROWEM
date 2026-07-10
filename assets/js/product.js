@@ -242,9 +242,11 @@
 
     if (product.sizes && product.sizes.length) {
       var sizeGroup = document.createElement('div');
+      var isToyOption = product.category === 'outdoor-trap' || product.collection === 'critter-gitr';
+      var variantLabel = isToyOption ? 'Option' : 'Size';
       sizeGroup.className = 'product-variant';
       sizeGroup.innerHTML =
-        '<label class="product-variant__label" for="product-size">Size</label>' +
+        '<label class="product-variant__label" for="product-size">' + variantLabel + '</label>' +
         '<select id="product-size" class="product-variant__select" name="size" required data-product-size>' +
         '<option value="">Choose an option</option>' +
         product.sizes.map(function (size) {

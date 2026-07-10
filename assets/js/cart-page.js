@@ -23,7 +23,7 @@
 
     itemsEl.innerHTML = items.map(function (item) {
       var sizeHtml = item.size
-        ? '<p class="cart-item__meta">Size: ' + item.size + '</p>'
+        ? '<p class="cart-item__meta">' + (/Surprise|Gender-Neutral/.test(item.size) ? 'Option' : 'Size') + ': ' + item.size + '</p>'
         : '';
       return '<article class="cart-item" data-cart-item="' + item.key + '">' +
         '<a href="' + item.url + '" class="cart-item__image">' +
