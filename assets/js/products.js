@@ -1749,7 +1749,7 @@ window.ROWEM_PRODUCTS = {
   },
   "p-bk4": {
     id: "p-bk4",
-    title: "Off the Boost",
+    title: "Off the Roost",
     price: 20,
     category: "hunting",
     categoryLabel: "Hunting & Outdoors",
@@ -1759,7 +1759,7 @@ window.ROWEM_PRODUCTS = {
     images: [
       {
         src: "assets/images/products/books/book-off-the-roost.jpg",
-        alt: "Off the Boost"
+        alt: "Off the Roost"
       }
     ],
     imageContain: true,

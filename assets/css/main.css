@@ -569,6 +569,27 @@ a.navlink { text-decoration: none; }
 
 .images-with-text-scroll__text .prose .btn { margin-top: 1.5rem; }
 
+.images-with-text-scroll--static .images-with-text-scroll__container {
+  place-items: center;
+}
+.images-with-text-scroll--static .images-with-text-scroll__container::before {
+  top: clamp(4rem, 14vw, 6.5rem);
+  transform: translate(-50%, -20%);
+}
+.images-with-text-scroll--static .images-with-text-scroll__item {
+  display: block;
+  width: 100%;
+  max-width: 36rem;
+}
+.images-with-text-scroll--static .images-with-text-scroll__text {
+  grid-area: auto;
+  max-width: none;
+  margin-inline: auto;
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
 .images-with-text-scroll__dots {
   grid-column: 1 / -1;
   display: flex;
